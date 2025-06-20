@@ -3,8 +3,10 @@
 # Usage
 # Primary server use -  
 
-puppet apply -e 'testfunc::my_custom_function("Saurabh")' \n
-puppet apply -e 'testfunc::my_custom_function("Hello testing")' --debug \n
+puppet apply -e 'testfunc::my_custom_function("Saurabh")'
+puppet apply -e 'testfunc::my_custom_function("Hello testing")' --debug
+
+### OTHER TEST ####
 
 # write a script to listen and force TLS1_1 or 1_2 
 
@@ -36,6 +38,12 @@ httpd.serve_forever()
 
 
 [root@rep2383 ~]#
+```
+
+###RUN
+
+```
+python3 server.py
 ```
 
 ####On the client side test 
